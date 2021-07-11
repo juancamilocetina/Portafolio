@@ -4,7 +4,7 @@ window.addEventListener("scroll", function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
-//Funcion click responsive barra
+//Funcion click responsive barra JQUERY
 $(document).ready(function(){
     $('.menu-toggle').click(function(){
         $('nav').toggleClass('active')
